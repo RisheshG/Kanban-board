@@ -1,0 +1,89 @@
+/* App.css */
+
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Set a white background for the entire app */
+.App {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+/* Style the header */
+.App-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Style the h1 in the header */
+.App-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Style the buttons for grouping and sorting */
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the main content area */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Style the Kanban board */
+.board {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Style the individual lists */
+.list {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  min-width: 300px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the individual cards */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the card titles */
+.card h4 {
+  margin: 0;
+  font-size: 1rem;
+}
